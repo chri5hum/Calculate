@@ -1,2 +1,2 @@
-# calculator
-Graphing Calculator
+# Calculator
+Dab on Casio
