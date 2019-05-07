@@ -56,6 +56,10 @@ class GraphView: UIView {
         
     }
     
+    @objc func changeScale(recognizer: UIPinchGestureRecognizer) {
+    
+    }
+    
     func drawFx(bounds: CGRect, origin: CGPoint, pointsPerUnit: CGFloat, savedProgram: CalculatorBrain.PropertyList?) { //make this function
         brain.program = savedProgram!
         let path = UIBezierPath()
